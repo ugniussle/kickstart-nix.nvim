@@ -20,7 +20,7 @@ require("onedarkpro").setup({
   options = {
     transparency = true,
     colors = {
-      gray = "#8a8d94"
+      gray = "#5870a8"
     },
   }
 })
