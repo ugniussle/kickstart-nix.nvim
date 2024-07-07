@@ -8,4 +8,4 @@ local rt = require("rust-tools")
 
 rt.setup({})
 require("notify")("rust analyzer setup")
-vim.call("LspStart rust-analyzer")
+vim.call("LspStart rust_analyzer")
