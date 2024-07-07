@@ -10,16 +10,7 @@ require('nvim-surround').setup()
 require('which-key').setup()
 require('fidget').setup()
 
-local highlight = {
-  "CursorColumn",
-  "Whitespace",
-}
-
-require('ibl').setup {
-  indent = {highlight = highlight, char = ""},
-  whitespace = {highlight = highlight, remove_blankline_trail = false },
-  scope = { enabled = true },
-}
+require('ibl').setup { }
 
 require("autoclose").setup()
 require("onedarkpro").setup({
