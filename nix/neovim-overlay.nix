@@ -85,10 +85,14 @@ with final.pkgs.lib; let
     # my plugins
     vim-rhubarb
     vim-sleuth
-    "fidget.nvim"
+    fidget-nvim
     vim-wakatime
-    "indent-blankline.nvim"
+    indent-blankline-nvim
     nvim-notify
+    autoclose-nvim
+    onedarkpro-nvim
+    vim-visual-multi
+    vim-fugitive
   ];
 
   extraPackages = with pkgs; [

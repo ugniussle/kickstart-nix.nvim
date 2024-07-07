@@ -9,3 +9,22 @@ vim.g.did_load_plugins_plugin = true
 require('nvim-surround').setup()
 require('which-key').setup()
 require('fidget').setup()
+
+local highlight = {
+  "CursorColumn",
+  "Whitespace",
+}
+
+require('ibl').setup {
+  indent = {highlight = highlight, char = ""},
+  whitespace = {highlight = highlight, remove_blankline_trail = false },
+  scope = { enabled = true },
+}
+
+require("autoclose").setup()
+require("onedarkpro").setup({
+  options = {
+    transparency = true
+  }
+})
+vim.cmd("colorscheme onedark")

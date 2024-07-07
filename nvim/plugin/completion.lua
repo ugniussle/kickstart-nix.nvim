@@ -80,6 +80,11 @@ cmp.setup {
     },
     ['<C-Space>'] = cmp.mapping.complete {},
 
+    ['<CR>'] = cmp.mapping.confirm {
+      behavior = cmp.ConfirmBehavior.Replace,
+      select = true,
+    },
+
     ['<Tab>'] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.select_next_item()
