@@ -219,8 +219,8 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 -- vim.keymap.set("v", "J", "dkP")
 -- vim.keymap.set("v", "K", "dp")
 
-vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { noremap=true })
-vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { noremap=true })
+vim.keymap.set("v", "J", ":m '>+1gv=gv", { noremap=true })
+vim.keymap.set("v", "K", ":m '<-2gv=gv", { noremap=true })
 
 -- collapse next line into current
 vim.keymap.set("n", "J", "mzJ`z")
@@ -230,9 +230,9 @@ vim.keymap.set("x", "<leader>p", "\"_dP")
 -- make o and O not enter insert mode
 -- vim.keymap.set("n", "o", "o<Esc>", { noremap = true })
 -- vim.keymap.set("n", "O", "O<Esc>", { noremap = true })
-vim.keymap.set("n", "<enter>", "o<Esc>", { noremap = true })
-
 -- vim.keymap.set("n", "j", "jzz", { noremap=true })
 -- vim.keymap.set("n", "k", "jzz", { noremap=true })
+vim.keymap.set("n", "<enter>", "o<Esc>", { noremap = true })
 -- vim.keymap.set("n", "<Up>", "<Up>zz", { noremap=true })
 -- vim.keymap.set("n", "<Down>", "<Down>zz", { noremap=true })
+
