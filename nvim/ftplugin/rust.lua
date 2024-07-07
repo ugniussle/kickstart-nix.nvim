@@ -10,7 +10,7 @@ rt.setup({})
 
 vim.lsp.start {
   name = "rust_analyzer",
-  cmd = {"rust_analyzer"},
+  cmd = {"rust-analyzer"},
   capabilities = require('user.lsp').make_client_capabilities(),
 }
 require("notify")("rust analyzer setup")
