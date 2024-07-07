@@ -222,8 +222,8 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 -- vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv<CR>", { noremap=true })
 -- vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv<CR>", { noremap=true })
 
-vim.keymap.set("v", "J", ":m '>+1<CR>", { noremap=true })
-vim.keymap.set("v", "K", ":m '<-2<CR>", { noremap=true })
+vim.keymap.set("v", "J", ":m '>+1", { noremap=true })
+vim.keymap.set("v", "K", ":m '<-2", { noremap=true })
 
 -- collapse next line into current
 vim.keymap.set("n", "J", "mzJ`z")
