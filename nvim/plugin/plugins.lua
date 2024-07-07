@@ -10,7 +10,7 @@ require('nvim-surround').setup()
 require('which-key').setup()
 require('fidget').setup()
 require('notify').setup({
-  background_color = "#FFFFFF"
+  background_colour = "#FFFFFF"
 })
 
 require('ibl').setup { }
