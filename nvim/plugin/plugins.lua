@@ -20,7 +20,8 @@ require("onedarkpro").setup({
   options = {
     transparency = true,
     colors = {
-      gray = "#5870a8"
+      line_number = "#757d8f",
+      inlay_hint = "#757d8f",
     },
   }
 })
