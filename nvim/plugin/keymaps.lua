@@ -179,12 +179,7 @@ local function toggle_spell_check()
   vim.opt.spell = not (vim.opt.spell:get())
 end
 
-keymap.set('n', '<leader>S', toggle_spell_check, { noremap = true, silent = true, desc = 'toggle [S]pell' })
-
-keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'move [d]own half-page and center' })
-keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'move [u]p half-page and center' })
-keymap.set('n', '<C-f>', '<C-f>zz', { desc = 'move DOWN [f]ull-page and center' })
-keymap.set('n', '<C-b>', '<C-b>zz', { desc = 'move UP full-page and center' })
+keymap.set('n', '<leader>SC', toggle_spell_check, { noremap = true, silent = true, desc = 'toggle [S]pell check' })
 
 --- Disabled keymaps [enable at your own risk]
 
@@ -198,3 +193,28 @@ keymap.set('n', '<C-b>', '<C-b>zz', { desc = 'move UP full-page and center' })
 --     vim.opt.hlsearch = vim.tbl_contains({ '<CR>', 'n', 'N', '*', '#', '?', '/' }, vim.fn.keytrans(char))
 --   end
 -- end, auto_hlsearch_namespace)
+
+
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-f>", "<C-u>zz")
+vim.keymap.set("v", "<C-d>", "<C-d>zz")
+vim.keymap.set("v", "<C-f>", "<C-u>zz")
+vim.keymap.set("n", "n", "nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
+
+vim.keymap.set("i", "<C-c>", "<Esc>")
+
+
+-- move selected block up or down with indentation
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+
+-- collapse next line into current
+vim.keymap.set("n", "J", "mzJ`z")
+
+vim.keymap.set("x", "<leader>p", "\"_dP")
+
+-- make o and O not enter insert mode
+-- vim.keymap.set("n", "o", "o<Esc>", { noremap = true })
+-- vim.keymap.set("n", "O", "O<Esc>", { noremap = true })
+vim.keymap.set("n", "<enter>", "o<Esc>", { noremap = true })
