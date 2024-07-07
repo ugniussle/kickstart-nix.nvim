@@ -93,6 +93,7 @@ with final.pkgs.lib; let
     onedarkpro-nvim
     vim-visual-multi
     vim-fugitive
+    rust-tools-nvim
   ];
 
   extraPackages = with pkgs; [
