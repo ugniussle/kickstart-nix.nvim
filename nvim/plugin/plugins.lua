@@ -23,6 +23,8 @@ require("onedarkpro").setup({
       onedark = {
         line_number = "#1c55d6",
         inlay_hint = "#1c55d6",
+        bg = "#1c55d6",
+        fg = "#1c55d6",
       },
     },
   }
