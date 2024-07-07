@@ -9,9 +9,10 @@ vim.g.did_load_plugins_plugin = true
 require('nvim-surround').setup()
 require('which-key').setup()
 require('fidget').setup()
-require('notify').setup({
+local notify = require('notify').setup({
   background_colour = "#FFFFFF"
 })
+vim.notify = notify.notify
 
 require('ibl').setup { }
 
