@@ -88,6 +88,7 @@ with final.pkgs.lib; let
     "fidget.nvim"
     vim-wakatime
     "indent-blankline.nvim"
+    nvim-notify
   ];
 
   extraPackages = with pkgs; [
