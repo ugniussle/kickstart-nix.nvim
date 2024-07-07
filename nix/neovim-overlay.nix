@@ -94,6 +94,7 @@ with final.pkgs.lib; let
     vim-visual-multi
     vim-fugitive
     rust-tools-nvim
+    nvim-lspconfig
   ];
 
   extraPackages = with pkgs; [
