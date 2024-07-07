@@ -18,7 +18,10 @@ require('ibl').setup { }
 require("autoclose").setup()
 require("onedarkpro").setup({
   options = {
-    transparency = true
+    transparency = true,
+    colors = {
+      gray = "#8a8d94"
+    },
   }
 })
 vim.cmd("colorscheme onedark")
