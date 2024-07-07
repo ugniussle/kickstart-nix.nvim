@@ -19,14 +19,12 @@ require("autoclose").setup()
 require("onedarkpro").setup({
   options = {
     transparency = true,
-    colors = {
-      onedark = {
-        line_number = "#1c55d6",
-        inlay_hint = "#1c55d6",
-        bg = "#1c55d6",
-        fg = "#1c55d6",
-      },
+  },
+  colors = {
+    onedark = {
+      line_number = "#1c55d6",
+      inlay_hint = "#1c55d6",
     },
-  }
+  },
 })
 vim.cmd("colorscheme onedark")
