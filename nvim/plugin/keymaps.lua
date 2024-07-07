@@ -34,6 +34,16 @@ local function toggle_qf_list()
   end
 end
 
+local function toggle_inlay_hints()
+  if vim.lsp.inlay_hint.is_enabled() then
+    vim.lsp.inlay_hint.enable(false)
+  else
+    vim.lsp.inlay_hint.enable(true)
+  end
+end
+
+keymap.set('n', '<leader>hh', toggle_inlay_hints, { desc = 'toggle inlay hints' })
+
 keymap.set('n', '<C-c>', toggle_qf_list, { desc = 'toggle quickfix list' })
 
 local function try_fallback_notify(opts)
