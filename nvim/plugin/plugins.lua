@@ -25,7 +25,6 @@ require("onedarkpro").setup({
   colors = {
     onedark = {
       line_number = "#1c55d6",
-      inlay_hint = "#1c55d6",
     },
   },
 })
