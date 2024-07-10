@@ -24,7 +24,8 @@ require("onedarkpro").setup({
   },
   highlights = {
     Character = {
-      fg = {dark = "#bf2042"},
+      fg = {dark = "#ffffff"},
+      bg = {dark = "#ffffff"},
     }
   },
   colors = {
