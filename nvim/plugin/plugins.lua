@@ -23,10 +23,10 @@ require("onedarkpro").setup({
     transparency = true,
   },
   highlights = {
-    Special = {
-      fg = {dark = "#ffffff"},
-      bg = {dark = "#ffffff"},
-    }
+    -- Special = {
+    --   fg = {dark = "#ffffff"},
+    --   bg = {dark = "#ffffff"},
+    -- }
   },
   colors = {
     onedark_vivid = {
