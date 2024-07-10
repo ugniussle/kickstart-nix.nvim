@@ -23,10 +23,10 @@ require("onedarkpro").setup({
     transparency = true,
   },
   colors = {
-    onedark = {
+    onedark_vivid = {
       line_number = "#1c55d6",
       red = "#cfcfcf"
     },
   },
 })
-vim.cmd("colorscheme onedark")
+vim.cmd("colorscheme onedark_vivid")
