@@ -23,7 +23,7 @@ require("onedarkpro").setup({
     transparency = true,
   },
   highlights = {
-    Character = {
+    Special = {
       fg = {dark = "#ffffff"},
       bg = {dark = "#ffffff"},
     }
