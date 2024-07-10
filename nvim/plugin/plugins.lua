@@ -23,9 +23,8 @@ require("onedarkpro").setup({
     transparency = true,
   },
   highlights = {
-    Comment = {
-      fg = {dark = "#ffffff"},
-      bg = {dark = "#ffffff"},
+    Character = {
+      fg = {dark = "#bf2042"},
     }
   },
   colors = {
