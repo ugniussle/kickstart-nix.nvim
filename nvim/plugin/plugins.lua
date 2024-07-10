@@ -28,7 +28,7 @@ require("onedarkpro").setup({
     },
   },
   highlights = {
-    ["@variable"] = {fg = "#FFFFFF"}
+    Variable = {fg = "#FFFFFF"}
   }
 })
 vim.cmd("colorscheme onedark")
