@@ -25,8 +25,9 @@ require("onedarkpro").setup({
   colors = {
     onedark_vivid = {
       line_number = "#1c55d6",
-      red = "#cfcfcf"
+      red = "#cfcfcf",
+      purple = "#c678dd"
     },
   },
 })
-vim.cmd("colorscheme onedark")
+vim.cmd("colorscheme onedark_vivid")
