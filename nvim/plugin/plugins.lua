@@ -22,6 +22,12 @@ require("onedarkpro").setup({
   options = {
     transparency = true,
   },
+  highlights = {
+    Comment = {
+      fg = {dark = "#ffffff"},
+      bg = {dark = "#ffffff"},
+    }
+  },
   colors = {
     onedark_vivid = {
       line_number = "#1c55d6",
