@@ -95,6 +95,7 @@ with final.pkgs.lib; let
     vim-fugitive
     nvim-lspconfig
     rustaceanvim
+    nvim-treesitter-parsers.slint
   ];
 
   extraPackages = with pkgs; [
@@ -102,6 +103,7 @@ with final.pkgs.lib; let
     lua-language-server
     nil # nix LSP
     rust-analyzer
+    slint-lsp
   ];
 in {
   # This is the neovim derivation
