@@ -84,11 +84,12 @@ vim.keymap.set(
   { desc = '[t]elescope grep current string [*] in current filetype' }
 )
 vim.keymap.set('n', '<leader>*', builtin.grep_string, { desc = '[telescope] grep current string [*]' })
-vim.keymap.set('n', '<leader>sf', project_files, { desc = '[t]elescope project files [g]' })
+vim.keymap.set('n', '<leader>sf', builtin.find_files, { desc = '[S]earch [F]iles' })
 vim.keymap.set('n', '<leader>sc', builtin.quickfix, { desc = '[t]elescope quickfix list [c]' })
 vim.keymap.set('n', '<leader>sq', builtin.command_history, { desc = '[t]elescope command history [q]' })
 vim.keymap.set('n', '<leader>sl', builtin.loclist, { desc = '[t]elescope [l]oclist' })
 vim.keymap.set('n', '<leader>sr', builtin.registers, { desc = '[t]elescope [r]egisters' })
+vim.keymap.set('n', '<leader>sd', builtin.diagnostics, { desc = '[S]earch [D]iagnostics' })
 vim.keymap.set('n', '<leader>tbb', builtin.buffers, { desc = '[t]elescope [b]uffers [b]' })
 vim.keymap.set(
   'n',
