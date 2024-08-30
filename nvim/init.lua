@@ -117,3 +117,5 @@ vim.g.sqlite_clib_path = require('luv').os_getenv('LIBSQLITE')
 vim.lsp.inlay_hint.enable(true)
 
 opt.scrolloff = 8
+
+vim.o.shell = "zsh"
