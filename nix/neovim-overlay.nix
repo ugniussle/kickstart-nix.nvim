@@ -100,6 +100,10 @@ with final.pkgs.lib; let
     nvim-lspconfig
     rustaceanvim
     typescript-tools-nvim
+
+    # ranger
+    ranger-vim
+    bclose-vim
   ];
 
   extraPackages = with pkgs; [
