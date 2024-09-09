@@ -119,3 +119,4 @@ vim.lsp.inlay_hint.enable(true)
 opt.scrolloff = 8
 
 vim.o.shell = "zsh"
+vim.opt.wrap = false

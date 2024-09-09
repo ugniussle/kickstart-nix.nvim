@@ -102,8 +102,7 @@ with final.pkgs.lib; let
     typescript-tools-nvim
 
     # ranger
-    ranger-vim
-    bclose-vim
+    # bclose-vim
   ];
 
   extraPackages = with pkgs; [
