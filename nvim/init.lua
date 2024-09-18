@@ -121,4 +121,4 @@ opt.scrolloff = 8
 vim.o.shell = "zsh"
 vim.opt.wrap = false
 
-vim.opt.foldexpr = true
+vim.opt.foldmethod = "expr"
