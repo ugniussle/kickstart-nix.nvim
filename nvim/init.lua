@@ -122,3 +122,5 @@ vim.o.shell = "zsh"
 vim.opt.wrap = false
 
 vim.opt.foldmethod = "expr"
+vim.opt.foldlevel = 1
+
