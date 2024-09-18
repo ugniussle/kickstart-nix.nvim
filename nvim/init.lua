@@ -122,3 +122,11 @@ vim.o.shell = "zsh"
 vim.opt.wrap = false
 
 vim.opt.foldmethod = "expr"
+vim.opt.foldenable = false
+-- remember folds
+vim.cmd(
+  [[
+    au BufWinLeave * silent mkview
+    au BufWinEnter * silent loadview
+  ]]
+)
