@@ -123,3 +123,9 @@ vim.opt.wrap = false
 
 vim.opt.foldmethod = "expr"
 
+vim.api.nvim_create_autocmd("VimEnter", {
+  callback = function ()
+    vim.cmd("Neotree left")
+    vim.cmd("Neotree right git_status")
+  end
+})

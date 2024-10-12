@@ -86,3 +86,8 @@ require("typescript-tools").setup {
     }
   },
 }
+
+-- require("neo-tree").setup({
+--   source_selector = {
+--   }
+-- })
