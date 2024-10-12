@@ -99,6 +99,7 @@ with final.pkgs.lib; let
     vim-fugitive
     nvim-lspconfig
     rustaceanvim
+    neo-tree-nvim
     typescript-tools-nvim
 
     # ranger
