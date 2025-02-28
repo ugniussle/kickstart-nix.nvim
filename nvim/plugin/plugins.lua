@@ -91,3 +91,5 @@ require("typescript-tools").setup {
 --   source_selector = {
 --   }
 -- })
+
+require'colorizer'.setup()

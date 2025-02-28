@@ -101,6 +101,7 @@ with final.pkgs.lib; let
     rustaceanvim
     neo-tree-nvim
     typescript-tools-nvim
+    nvim-colorizer-lua
 
     # ranger
     # bclose-vim
