@@ -31,9 +31,9 @@ require("onedarkpro").setup({
   colors = {
     onedark_vivid = {
       line_number = "#1c55d6",
-      red = "#cfcfcf",
-      purple = "#c678dd",
-      white = "#bf1111",
+      -- red = "#cfcfcf",
+      -- purple = "#c678dd",
+      -- white = "#bf1111",
     },
   },
 })
